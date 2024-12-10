@@ -1,31 +1,90 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid 19eb1580-c65f-494d-88ac-d27fe4c49013)
-
-  (paper "A4")
-
-  (lib_symbols
-  )
-
-
-  (sheet (at 24.13 25.4) (size 43.18 22.86) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid 73d9d235-43d1-4b0c-a3da-7fb6c28a3a00)
-    (property "Sheetname" "board_def" (at 24.13 24.6884 0) (show_name)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "board_def.kicad_sch" (at 24.13 48.8446 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "dctester"
-        (path "/19eb1580-c65f-494d-88ac-d27fe4c49013" (page "2"))
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "19eb1580-c65f-494d-88ac-d27fe4c49013")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 82.55 25.4)
+		(size 45.72 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "61e3dffa-7122-4ceb-8601-7eef1cb7e68a")
+		(property "Sheetname" "main"
+			(at 82.55 24.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "main.kicad_sch"
+			(at 82.55 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "dctester"
+				(path "/19eb1580-c65f-494d-88ac-d27fe4c49013"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 24.13 25.4)
+		(size 43.18 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "73d9d235-43d1-4b0c-a3da-7fb6c28a3a00")
+		(property "Sheetname" "board_def"
+			(at 24.13 24.6884 0)
+			(show_name yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "board_def.kicad_sch"
+			(at 24.13 48.8446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "dctester"
+				(path "/19eb1580-c65f-494d-88ac-d27fe4c49013"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
