@@ -1114,7 +1114,7 @@
 		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP2"
-			(at -1.5 -7.42 90)
+			(at 0.007831 -3.350678 90)
 			(layer "F.SilkS")
 			(uuid "b18d4f05-6e98-4027-b47a-db3424c2fac5")
 			(effects
@@ -2213,7 +2213,7 @@
 		(descr "SMD Solder Jumper, 1x1.5mm Triangular Pads, 0.3mm gap, open")
 		(tags "solder jumper open")
 		(property "Reference" "JP1"
-			(at 0 -6 90)
+			(at 0 -3.50957 90)
 			(layer "F.SilkS")
 			(uuid "3aeeb60e-0abe-4d6f-80fe-08f8e7d89810")
 			(effects
