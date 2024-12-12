@@ -101,7 +101,7 @@
 		(descr "DC Barrel Jack")
 		(tags "Power Jack")
 		(property "Reference" "J7"
-			(at -8.45 5.75 360)
+			(at -8.45 5.75 0)
 			(layer "F.SilkS")
 			(uuid "10063416-b008-4dbb-95d9-ec698d75cd0a")
 			(effects
@@ -112,7 +112,7 @@
 			)
 		)
 		(property "Value" "DC5.5x2.1"
-			(at -6.2 -5.5 360)
+			(at -6.2 -5.5 0)
 			(layer "F.Fab")
 			(uuid "369006ce-d4f3-4628-b6b8-9073e875cc7d")
 			(effects
@@ -437,7 +437,7 @@
 			(uuid "71db4425-1c4e-4fb1-a703-c2aff94525a5")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -3 -2.95 360)
+			(at -3 -2.95 0)
 			(layer "F.Fab")
 			(uuid "3b78d80e-d301-4699-881b-6785d3dcf347")
 			(effects
@@ -1233,13 +1233,13 @@
 			(uuid "58864124-0e55-40bf-bd50-67ca9770ff6b")
 		)
 		(pad "" smd rect
-			(at -2.625 0 270)
+			(at -3.462857 -0.014333 270)
 			(size 3.25 4.25)
 			(layers "F.Mask")
 			(uuid "c01ccb4b-0237-483b-af1b-1c408bf70e0f")
 		)
 		(pad "" smd rect
-			(at 2.5 0 270)
+			(at 3.520571 0.004904 270)
 			(size 3.25 4.25)
 			(layers "F.Mask")
 			(uuid "58fadfad-1982-4c58-b49c-e16029cb3790")
@@ -2331,18 +2331,6 @@
 			(layer "F.Fab")
 			(uuid "53959cfb-ecc1-4990-ac5e-84de66ba0c0d")
 		)
-		(pad "" smd rect
-			(at -2.625 0 90)
-			(size 3.25 4.25)
-			(layers "F.Mask")
-			(uuid "81d858a8-425c-43f0-bf05-04ee73aca4f7")
-		)
-		(pad "" smd rect
-			(at 2.5 0 90)
-			(size 3.25 4.25)
-			(layers "F.Mask")
-			(uuid "0bbe4ef2-c582-43ef-b1da-f44a68549ec8")
-		)
 		(pad "1" smd rect
 			(at -3.5 0 90)
 			(size 2.5 4)
@@ -2624,7 +2612,7 @@
 		)
 		(pad "2" thru_hole oval
 			(at 0 6 180)
-			(size 3 0.8)
+			(size 3 1)
 			(drill oval 1.8 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
@@ -3216,7 +3204,7 @@
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R1"
-			(at 5.08 -2.37 360)
+			(at 5.08 -2.37 0)
 			(layer "F.SilkS")
 			(uuid "099e02c8-81c7-459e-b70a-4c8c72897725")
 			(effects
@@ -3227,7 +3215,7 @@
 			)
 		)
 		(property "Value" "2K"
-			(at 5.08 2.37 360)
+			(at 5.08 2.37 0)
 			(layer "F.Fab")
 			(uuid "f5de16e4-10cb-423b-8eb5-3511eb554878")
 			(effects
@@ -3442,7 +3430,7 @@
 			(uuid "2d23c5c2-64a1-4ec5-a107-29ed8f0b3302")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 5.08 0 360)
+			(at 5.08 0 0)
 			(layer "F.Fab")
 			(uuid "e36f204e-0b2e-43d6-bda8-2ab1f8115881")
 			(effects
@@ -4099,7 +4087,7 @@
 		(descr "USB Micro-B receptacle, http://www.mouser.com/ds/2/445/629105150521-469306.pdf")
 		(tags "usb micro receptacle")
 		(property "Reference" "J5"
-			(at 0 -1.75 360)
+			(at 0 -1.75 0)
 			(layer "F.SilkS")
 			(uuid "b14faffc-14de-4b15-bd26-ecc27bc79a97")
 			(effects
@@ -4110,7 +4098,7 @@
 			)
 		)
 		(property "Value" "USB_B_Micro"
-			(at 0 7.35 360)
+			(at 0 7.35 0)
 			(layer "F.Fab")
 			(uuid "c2b9d91a-c6fb-4dd4-b6b3-8d2e31081b23")
 			(effects
@@ -4465,7 +4453,7 @@
 			(uuid "cc60142e-29ad-40a5-84c2-9bb06ebb76b7")
 		)
 		(fp_text user "PCB Edge"
-			(at 0 5.5 360)
+			(at 0 5.5 0)
 			(layer "Dwgs.User")
 			(uuid "e091555e-b5ed-46df-960f-1508f13cbb69")
 			(effects
@@ -4476,7 +4464,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 2.8 360)
+			(at 0 2.8 0)
 			(layer "F.Fab")
 			(uuid "e8fc7ae2-38d6-4596-a159-487458ed9574")
 			(effects
@@ -4500,10 +4488,11 @@
 			(layers "F&B.Cu" "*.Mask")
 			(uuid "64310f2a-81cc-4541-b023-1604b9b188b7")
 		)
-		(pad "1" smd rect
-			(at -1.3 0.325)
-			(size 0.45 1.65)
+		(pad "1" smd roundrect
+			(at -1.3 0.295)
+			(size 0.45 1.55)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.5)
 			(net 8 "/main/VDD")
 			(pinfunction "VBUS")
 			(pintype "power_out")
@@ -4536,10 +4525,11 @@
 			(pintype "passive+no_connect")
 			(uuid "98169508-0328-47f1-9ee9-7b6d8e11ea63")
 		)
-		(pad "5" smd rect
-			(at 1.3 0.325)
-			(size 0.45 1.65)
+		(pad "5" smd roundrect
+			(at 1.3 0.295)
+			(size 0.45 1.55)
 			(layers "F.Cu" "F.Paste" "F.Mask")
+			(roundrect_rratio 0.5)
 			(net 2 "GND")
 			(pinfunction "GND")
 			(pintype "power_out")
@@ -4848,7 +4838,7 @@
 		)
 		(pad "2" thru_hole oval
 			(at 0 6)
-			(size 3 0.8)
+			(size 3 1)
 			(drill oval 1.8 0.7)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
@@ -5401,14 +5391,6 @@
 		(uuid "cda526e5-c436-45b3-8509-848179c6e6f4")
 	)
 	(segment
-		(start 107 119.377306)
-		(end 107.5 118.877306)
-		(width 2)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "d0f03345-e487-49ed-a683-47a174392835")
-	)
-	(segment
 		(start 133.41977 83.802984)
 		(end 128.66977 83.802984)
 		(width 1)
@@ -5423,6 +5405,14 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "d57b1a74-2749-442a-af9c-4d471b7df74d")
+	)
+	(segment
+		(start 107 119.377306)
+		(end 107.5 118.877306)
+		(width 3)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "d5d9945f-7c7a-4146-b4ec-6d6af9d48845")
 	)
 	(segment
 		(start 123.7425 113.7575)
