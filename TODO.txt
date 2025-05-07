@@ -1,0 +1,1 @@
+typec: CC1/CC2 pullup or pulldown;
